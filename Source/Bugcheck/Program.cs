@@ -16,7 +16,7 @@ namespace Bugcheck
             var afterMessage = "Type another bug check, or \"exit\" to quit:\n";
 
             // Write welcome message to screen.
-            Console.WriteLine("Type the bug check code you experienced (for example - 0xD1), or \"exit\" to quit:\n");
+            Console.WriteLine("Type a bug check code (for example - 0xD1), or \"exit\" to quit:\n");
 
             while (true)
             {               
