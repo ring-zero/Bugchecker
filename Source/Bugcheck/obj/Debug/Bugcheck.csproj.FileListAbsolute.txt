@@ -7,3 +7,9 @@ C:\Users\Patrick\Documents\Programming\Bugcheck\Bugcheck\obj\Debug\Bugcheck.pdb
 C:\Users\Patrick\Documents\GitHub\Bugchecker\Bugcheck\Bugcheck\bin\Debug\Bugcheck.exe.config
 C:\Users\Patrick\Documents\GitHub\Bugchecker\Bugcheck\Bugcheck\obj\Debug\Bugcheck.exe
 C:\Users\Patrick\Documents\GitHub\Bugchecker\Bugcheck\Bugcheck\obj\Debug\Bugcheck.pdb
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Debug\Bugcheck.exe.config
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\obj\Debug\Bugcheck.exe
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\obj\Debug\Bugcheck.pdb
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Debug\Bugcheck.exe
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Debug\Bugcheck.pdb
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\obj\Debug\Bugcheck.csprojResolveAssemblyReference.cache
