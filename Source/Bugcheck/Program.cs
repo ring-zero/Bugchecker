@@ -33,13 +33,16 @@ namespace Bugcheck
 
                 // Checking value of bug check.
                 if (userInput == "0xd1")
-                    message = "This indicates that a kernel-mode driver attempted to access pageable memory at\n" + 
+                    message = "DRIVER_IRQL_NOT_LESS_OR_EQUAL\n" +
+                        "This indicates that a kernel-mode driver attempted to access pageable memory at\n" + 
                         "a process IRQL that was too high.\n";
                 else if (userInput == "0xa")
-                    message = "This indicates that Microsoft Windows or a kernel-mode driver accessed\n" +
+                    message = "IRQL_NOT_LESS_OR_EQUAL\n" +
+                        "This indicates that Microsoft Windows or a kernel-mode driver accessed\n" +
                         "paged memory at DISPATCH_LEVEL or above.\n";
                 else if (userInput == "0x1e")
-                    message = "This indicates that a kernel-mode program generated an exception which the\n" +
+                    message = "KMODE_EXCEPTION_NOT_HANDLED\n" +
+                        "This indicates that a kernel-mode program generated an exception which the\n" +
                         "error handler did not catch.\n";
                 else
                     message = "Not a valid bug check, please try again.\n";
