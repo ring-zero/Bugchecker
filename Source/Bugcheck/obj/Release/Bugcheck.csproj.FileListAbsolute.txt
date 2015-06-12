@@ -1,0 +1,8 @@
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Release\Bugcheck.exe.config
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Release\Bugcheck.exe
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Release\Bugcheck.pdb
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\obj\Release\Bugcheck.exe
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\obj\Release\Bugcheck.pdb
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Compiled\Bugcheck.exe.config
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Compiled\Bugcheck.exe
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\bin\Compiled\Bugcheck.pdb
