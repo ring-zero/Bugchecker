@@ -10,10 +10,13 @@ namespace Bugcheck
     {
         static void Main(string[] args)
         {
+            
             // Initializing variables.
             string bugcheckExit = "exit";
             var message = "";
             var afterMessage = "Type another bug check, or \"exit\" to quit:\n";
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.Clear();
 
             // Write welcome message to screen.
             Console.WriteLine("Type a bug check code (for example - 0xD1), or \"exit\" to quit:\n");
