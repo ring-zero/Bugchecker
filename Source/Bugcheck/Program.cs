@@ -18,7 +18,6 @@ namespace Bugcheck
             // Write welcome message to screen.
             Console.WriteLine("Type the bug check code you experienced (for example - 0xD1), or \"exit\" to quit:\n");
 
-            // While loop here.
             while (true)
             {               
                 
