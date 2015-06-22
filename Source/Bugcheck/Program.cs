@@ -10,45 +10,41 @@ namespace Bugcheck
     {
         static void Main(string[] args)
         {
-            
-            // Initializing variables.
-            string bugcheckExit = "exit";
-            var message = "";
-            var afterMessage = "Type another bug check, or \"exit\" to quit:\n";
+
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.Clear();
+            Dictionary<string, string> openWith = new Dictionary<string, string>
+        {
+            { "0xa", "This indicates that Microsoft Windows or a kernel-mode driver accessed\n" + 
+                    "paged memory at DISPATCH_LEVEL or above.\n\n" +
+                    "What exactly does this mean?\n" +
+                    "A Windows system driver (not 3rd party) or a 3rd party kernel-mode driver\n" + 
+                    "(avast! Self Protection driver for example) caused a pagefault to be thrown,\n" +
+                    "and since MmAccessFault cannot handle pagefaults at IRQL 2 (on both x86/x64)\n" + 
+                    "or higher, the 0xA bug check is called.\n" },
 
-            // Write welcome message to screen.
+            { "0xd1", "This indicates that a kernel-mode driver attempted to access pageable memory at\n" + 
+                    "a process IRQL that was too high.\n" },
+
+            { "0x1", "This indicates that there has been a mismatch in the APC state index." },
+
+            { "0x2", "It indicates that a device queue was expected to be busy, but was not." },
+
+            { "0x3", "It indicates a null of incorrect subset affinity." },
+        };
+
             Console.WriteLine("Type a bug check code (for example - 0xD1), or \"exit\" to quit:\n");
 
-            while (true)
-            {               
-                
-                // Take in user input.
-                string userInput = Console.ReadLine().ToLower();
+            string userInput = "";
+            while ((userInput = Console.ReadLine().ToLower()) != "exit")
+            {
 
-                // Check user input.
-                if (userInput == bugcheckExit)
-                    System.Environment.Exit(1);
-
-                // Checking value of bug check.
-                if (userInput == "0xd1")
-                    message = "DRIVER_IRQL_NOT_LESS_OR_EQUAL\n" +
-                        "This indicates that a kernel-mode driver attempted to access pageable memory at\n" + 
-                        "a process IRQL that was too high.\n";
-                else if (userInput == "0xa")
-                    message = "IRQL_NOT_LESS_OR_EQUAL\n" +
-                        "This indicates that Microsoft Windows or a kernel-mode driver accessed\n" +
-                        "paged memory at DISPATCH_LEVEL or above.\n";
-                else if (userInput == "0x1e")
-                    message = "KMODE_EXCEPTION_NOT_HANDLED\n" +
-                        "This indicates that a kernel-mode program generated an exception which the\n" +
-                        "error handler did not catch.\n";
+                if (openWith.ContainsKey(userInput))
+                    Console.WriteLine(openWith[userInput]);
                 else
-                    message = "Not a valid bug check, please try again.\n";
+                    Console.WriteLine("Doesn't exist");
 
-                Console.WriteLine(message);
-                Console.WriteLine(afterMessage);
+                Console.WriteLine("Type another bug check, or \"exit\" to quit:\n");
             }
         }
     }
