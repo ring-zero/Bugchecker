@@ -4,7 +4,7 @@ Bugchecker is my first C# program that I will add on to for practice/learning pu
 
 # What does it do?
 
-In its current state, it's a simple program that prompts the user to enter a bug check code (0xD1 for example) and will shoot back the documented description, as well as detailed debugging tips, notes, etc. Likely a GUI in the future as it'd just make everything easier for both parties.
+In its current state, it's a simple program that prompts the user to enter a bug check code (0xD1 for example) and will shoot back the MSDN documented description, as well as detailed debugging tips, notes, etc. I will likely implement a GUI in the future as it'd just make everything easier for both parties.
 
 # Notes
 
