@@ -55,9 +55,9 @@ namespace Bugcheck
                 if (openWith.ContainsKey(userInput))
                     Console.WriteLine(openWith[userInput]);
                 else
-                    Console.WriteLine("Not a valid bug check.\n");
+                    Console.WriteLine("Not a valid bug check!\n");
 
-                Console.WriteLine("Type another bug check, or \"exit\" to quit:\n");
+                Console.WriteLine("Type another bug check, or \"exit\" to quit:");
             }
         }
     }
