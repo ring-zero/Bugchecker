@@ -11,7 +11,7 @@ namespace Bugcheck
         static void Main(string[] args)
         {
 
-            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.Clear();
             Dictionary<string, string> openWith = new Dictionary<string, string>
         {
