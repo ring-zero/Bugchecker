@@ -10,3 +10,6 @@ C:\Users\Patrick\Documents\GitHub\Bugchecker\Compiled\Bugcheck.exe.config
 C:\Users\Patrick\Documents\GitHub\Bugchecker\Compiled\Bugcheck.exe
 C:\Users\Patrick\Documents\GitHub\Bugchecker\Compiled\Bugcheck.pdb
 C:\Users\Patrick\Documents\GitHub\Bugchecker\Source\Bugcheck\obj\Release\Bugcheck.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Compiled (BETA)\0.9.1\Bugcheck.exe.config
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Compiled (BETA)\0.9.1\Bugcheck.exe
+C:\Users\Patrick\Documents\GitHub\Bugchecker\Compiled (BETA)\0.9.1\Bugcheck.pdb
